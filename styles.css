@@ -1,0 +1,29 @@
+body{
+	display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+	background-color: #3DB2FF;
+	font-family: 'Roboto', sans-serif;
+}
+
+.box {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 50px;
+    width: 50%;
+    max-width: 500px;
+    margin-top: 100px;
+	background-color: #FFEDDA;
+}
+
+.issue{
+	color: red;
+	font-size: 13px;
+}
+
